@@ -26,8 +26,9 @@ Terraform import allows you to bring existing AWS resources (like an S3) under T
 ### 3️⃣ Initialize Terraform
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/0dc4345d-8baf-44a5-b752-7728ebdd24ec" />
+
 ```bash
-terraform import
+terraform init
 ```
 
 ---
