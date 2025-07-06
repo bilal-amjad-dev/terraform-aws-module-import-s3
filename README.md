@@ -1,9 +1,12 @@
-# How to import S3 Bucket using Terraform import?
-Terraform import allows you to bring existing AWS resources (like an S3) under Terraform management without destroying or recreating them.
+# Importing an S3 Bucket with Terraform
+
+
+Terraform's `import` command allows you to bring existing AWS resources, such as an S3 bucket, under Terraform management. This process enables you to integrate resources created manually into your infrastructure-as-code (IaC) without needing to destroy and recreate them. In this lab, we will first manually create an S3 bucket in AWS, and then use `terraform import` to seamlessly bring it under Terraform's control.
 
 
 
 ## 🚀 Steps to Use (S3 Import)
+
 ### 1️⃣ Create an S3 Bucket Manually
 - Write bucket name `my-bucket-06-july-2025`
 - Click Create
