@@ -4,6 +4,8 @@
 Terraform's `import` command allows you to bring existing AWS resources, such as an S3 bucket, under Terraform management. This process enables you to integrate resources created manually into your infrastructure-as-code (IaC) without needing to destroy and recreate them. In this lab, we will first manually create an S3 bucket in AWS, and then use `terraform import` to seamlessly bring it under Terraform's control.
 
 
+**Terraform import** is a command that uses an **existing cloud resource's unique ID** to establish a link between that resource and your Terraform state, bringing it under Terraform's management.
+
 
 ## 🚀 Steps to Use (S3 Import)
 
